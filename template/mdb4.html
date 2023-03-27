@@ -1,0 +1,41 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mdb.css' %}">
+</head>
+<body>
+    <center>
+        <h1 class="btn btn-info">MDBootStrap</h1>
+    </center>
+    <center>
+        <div class="card" style="width: 18rem;">
+            <img src="{% static 'image/car.webp' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lamborghini</h5>
+              <p class="card-text">Automobili Lamborghini S.p.A. is an Italian manufacturer of luxury sports cars and SUVs based in Sant'Agata Bolognese. The company is owned by the Volkswagen Group through its subsidiary Audi.</p>
+              <a href="https://www.lamborghini.com/en-en" class="btn btn-primary">Go to Lamborghini Page  </a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="{% static 'image/car3.webp' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Benz</h5>
+              <p class="card-text">Mercedes-Benz, commonly referred to as Mercedes and sometimes as Benz, is a German luxury and commercial vehicle automotive brand established in 1926. Mercedes-Benz AG is headquartered in Stuttgart, Baden-Württemberg, Germany.</p>
+              <a href="https://www.mercedes-benz.com/en/" class="btn btn-primary">Go to Benz Page  </a>
+            </div>
+        </div>
+
+    </center>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/mdb.js' %}"></script>
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/popper.js' %}"></script>
+</body>
+</html>
